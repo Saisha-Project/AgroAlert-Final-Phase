@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌿AgroAlert Dashboard 🧑‍🌾</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌿AgroAlert Dashboard 🧑‍🌾</h1>
+      <p>Get instant weather + crop insights by district</p>
+    </header>
+
+    <div class="form">
+      <select id="city">
+        <option value="" disabled selected>-- Select District --</option>
+        <option value="Ahmednagar">Ahmednagar</option>
+        <option value="Akola">Akola</option>
+        <option value="Amravati">Amravati</option>
+        <option value="Aurangabad">Aurangabad</option>
+        <option value="Beed">Beed</option>
+        <option value="Bhandara">Bhandara</option>
+        <option value="Buldhana">Buldhana</option>
+        <option value="Chandrapur">Chandrapur</option>
+        <option value="Dhule">Dhule</option>
+        <option value="Gadchiroli">Gadchiroli</option>
+        <option value="Gondia">Gondia</option>
+        <option value="Hingoli">Hingoli</option>
+        <option value="Jalgaon">Jalgaon</option>
+        <option value="Jalna">Jalna</option>
+        <option value="Kolhapur">Kolhapur</option>
+        <option value="Latur">Latur</option>
+        <option value="Mumbai suburban">Mumbai suburban</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Nanded">Nanded</option>
+        <option value="Nandurbar">Nandurbar</option>
+        <option value="Nashik">Nashik</option>
+        <option value="Osmanabad">Osmanabad</option>
+        <option value="Palghar">Palghar</option>
+        <option value="Parbhani">Parbhani</option>
+        <option value="Pune">Pune</option>
+        <option value="Raigad">Raigad</option>
+        <option value="Ratnagiri">Ratnagiri</option>
+        <option value="Sangli">Sangli</option>
+        <option value="Satara">Satara</option>
+        <option value="Sindhudurg">Sindhudurg</option>
+        <option value="Solapur">Solapur</option>
+        <option value="Thane">Thane</option>
+        <option value="Wardha">Wardha</option>
+        <option value="Washim">Washim</option>
+        <option value="Yavatmal">Yavatmal</option>
+        
+      </select>
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="results">
+      <p><strong>Weather:</strong> <span id="weather">-</span></p>
+      <p><strong>Description:</strong> <span id="description">-</span></p>
+      <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
+      <p><strong>Humidity:</strong> <span id="humidity">-</span></p>
+      <p><strong>Pressure:</strong> <span id="pressure">-</span></p>
+      <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
+      <p class="hazard"><strong>Predicted Hazards:</strong> <span id="hazard">-</span></p>
+    </div>
+
+    <h2>🧑‍🌾 Crop Help 🚜</h2>
+    <div id="crop-data">
+      <p>Select a district to view crop data...</p>
+    </div>
+
+    <footer>
+      <p>© 2025 AgroAlert • Made by Vedika Deshmukh & Saisha Rawte</p>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+  <script>
+    const images = [
+       'url("imagebg.jpg")',
+        'url("bgim.jpg")',
+        'url("bgiim.jpg")',
+        'url("bgiii.jpg")'
+    ];
+  
+    let current = 0;
+    const body = document.body;
+    const bg = document.createElement('div');
+  
+    bg.style.position = 'fixed';
+    bg.style.top = 0;
+    bg.style.left = 0;
+    bg.style.width = '100%';
+    bg.style.height = '100%';
+    bg.style.zIndex = '-1';
+    bg.style.backgroundSize = 'cover';
+    bg.style.backgroundPosition = 'center';
+    bg.style.transition = 'opacity 1.2s ease-in-out';
+    bg.style.opacity = '1';
+    bg.style.backgroundImage = images[current];
+  
+    document.body.appendChild(bg);
+  
+    function changeBg() {
+      bg.style.opacity = '0';
+      setTimeout(() => {
+        current = (current + 1) % images.length;
+        bg.style.backgroundImage = images[current];
+        bg.style.opacity = '1';
+      }, 1200); // match transition duration
+    }
+  
+    window.addEventListener('load', () => {
+      setInterval(changeBg, 5000);
+    });
+  </script>
+  
+</body>
+</html>

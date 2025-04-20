@@ -1,0 +1,323 @@
+{
+  "Ahmednagar": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      },
+      {
+        "Crop": "Tur",
+        "Impact": "Stunted growth, flower drop",
+        "Tip": "Early sowing, mulch to retain soil moisture"
+      }
+    ]
+  },
+  "Akola": {
+    "High Temperature": [
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      },
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      }
+    ]
+  },
+  "Amravati": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      },
+      {
+        "Crop": "Tur",
+        "Impact": "Stunted growth, flower drop",
+        "Tip": "Early sowing, mulch to retain soil moisture"
+      }
+    ]
+  },
+  "Nandurbar": {
+    "High Temperature": [
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      }
+    ]
+  },
+  "Nashik": {
+    "High Temperature": [
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      },
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      }
+    ]
+  },
+  "Osmanabad": {
+    "High Temperature": [
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  },
+  "Palghar": {
+    "High Temperature": [
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      }
+    ]
+  },
+  "Parbhani": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      },
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      }
+    ]
+  },
+  "Pune": {
+    "High Temperature": [
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  },
+  "Raigad": {
+    "High Temperature": [
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      },
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      }
+    ]
+  },
+  "Ratnagiri": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      }
+    ]
+  },
+  "Sangli": {
+    "High Temperature": [
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  },
+  "Satara": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      }
+    ]
+  },
+  "Sindhudurg": {
+    "High Temperature": [
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      }
+    ]
+  },
+  "Solapur": {
+    "High Temperature": [
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  },
+  "Thane": {
+    "High Temperature": [
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      }
+    ]
+  },
+  "Wardha": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      }
+    ]
+  },
+  "Washim": {
+    "High Temperature": [
+      {
+        "Crop": "Sugarcane",
+        "Impact": "Reduced juice quality, delayed maturity",
+        "Tip": "Frequent irrigation, partial shading"
+      },
+      {
+        "Crop": "Rice",
+        "Impact": "Reduced grain filling and spikelet sterility",
+        "Tip": "Maintain water level, use short-duration varieties"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  },
+  "Yavatmal": {
+    "High Temperature": [
+      {
+        "Crop": "Cotton",
+        "Impact": "Reduced boll formation, yield drop 20–25%",
+        "Tip": "Use mulch, irrigate during early morning/evening"
+      },
+      {
+        "Crop": "Wheat",
+        "Impact": "Reduced grain weight, early maturity",
+        "Tip": "Adjust sowing time, use mulching"
+      },
+      {
+        "Crop": "Soybean",
+        "Impact": "Reduced oil content and seed quality",
+        "Tip": "Use heat-tolerant varieties, apply anti-transpirants"
+      }
+    ]
+  }
+}

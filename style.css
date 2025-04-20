@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Oxygen', 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #040e08;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 2.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  
+  html {
+    overflow-y: scroll;  /* Ensures vertical scroll is always enabled */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(45, 109, 17, 0.9), rgba(109, 215, 43, 0.85));
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 5px rgba(109, 215, 43, 0.61);
+    backdrop-filter: blur(10px); /* soft blur behind */
+  }
+  
+  
+  
+  .form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  select, button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1c5c1e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .results, #crop-data {
+    margin-top: 20px;
+    background-color: #cdf2c5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+}
+  }
+  
+  h2 {
+    color: #2e7d32;
+    margin-top: 30px;
+  }
+  
+  .hazard {
+    color: red;
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #e4f1e0;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #9aa440;
+    text-align: center;
+  }
+  
